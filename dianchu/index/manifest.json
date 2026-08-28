@@ -1,6 +1,28 @@
 {
   "books": [
     {
+      "id": "daxue",
+      "title": "大学",
+      "author": "曾参 述",
+      "dynasty": "春秋战国",
+      "category": "经部·儒家",
+      "desc": "四书之首，三纲八目，格致诚正修齐治平之阶梯",
+      "chapters": 1,
+      "sents": 119,
+      "chars": 1752
+    },
+    {
+      "id": "zhongyong",
+      "title": "中庸",
+      "author": "子思",
+      "dynasty": "战国",
+      "category": "经部·儒家",
+      "desc": "四书之一，天命之谓性，致中和而位天地育万物",
+      "chapters": 1,
+      "sents": 235,
+      "chars": 3565
+    },
+    {
       "id": "lunyu",
       "title": "论语",
       "author": "孔子弟子及再传弟子",
@@ -32,6 +54,50 @@
       "chapters": 310,
       "sents": 4614,
       "chars": 31938
+    },
+    {
+      "id": "shangshu",
+      "title": "尚书",
+      "author": "佚名",
+      "dynasty": "虞夏商周",
+      "category": "经部·书",
+      "desc": "政书之祖，典谟训诰，三代圣王之诰命文告",
+      "chapters": 59,
+      "sents": 2416,
+      "chars": 28105
+    },
+    {
+      "id": "zhouyi",
+      "title": "周易",
+      "author": "伏羲 文王 孔子",
+      "dynasty": "商周",
+      "category": "经部·易",
+      "desc": "群经之首，六十四卦三百八十四爻，天人之学",
+      "chapters": 69,
+      "sents": 2022,
+      "chars": 21297
+    },
+    {
+      "id": "liji",
+      "title": "礼记",
+      "author": "戴圣 编",
+      "dynasty": "西汉",
+      "category": "经部·礼",
+      "desc": "礼学总集四十九篇，曲礼檀弓学记乐记皆出于此",
+      "chapters": 49,
+      "sents": 6511,
+      "chars": 97886
+    },
+    {
+      "id": "chunqiu",
+      "title": "春秋左传",
+      "author": "左丘明",
+      "dynasty": "春秋",
+      "category": "经部·春秋",
+      "desc": "春秋经传，微言大义，叙事之祖，典故渊薮",
+      "chapters": 12,
+      "sents": 16844,
+      "chars": 195562
     },
     {
       "id": "zhuangzi",
@@ -75,7 +141,7 @@
       "desc": "第一部纪传体断代史，西汉一朝典制文章之渊薮",
       "chapters": 120,
       "sents": 89706,
-      "chars": 1252748
+      "chars": 1252743
     },
     {
       "id": "houhanshu",
@@ -119,7 +185,7 @@
       "desc": "康熙敕编唐诗总集，四万八千九百余首，一代诗料尽萃于此",
       "chapters": 367,
       "sents": 310096,
-      "chars": 3416446
+      "chars": 3416438
     }
   ]
 }
