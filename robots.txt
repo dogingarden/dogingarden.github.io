@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# 静态资源可抓取，但索引 JSON 体积巨大（数十 MB），禁止爬取以节省带宽
+Disallow: /index/
+
+Sitemap: https://www.vis27.com/sitemap.xml

@@ -1,37 +1,91 @@
 <!DOCTYPE html>
-<html lang="zh-CN" data-page-node-id="Fsf4KXDMdAUjcalwQI4ZYf">
-<head data-page-node-id="HoO4o6ZXNlkCyx9WD31jdK">
-<script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+<html lang="zh-CN" data-page-node-id="3sfn8c9gDbpL4fEQ1OPEj6">
+<head data-page-node-id="nE7YBHJ2bW31S3lF9D3gYm">
+<meta charset="UTF-8" data-page-node-id="YNytjIiZOmNxg40XPIeM4P">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" data-page-node-id="zjVWXJ9izCD5RgffQfvmb0">
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-WHTLM30ZVL"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-WHTLM30ZVL');
 </script>
-<meta charset="UTF-8" data-page-node-id="lQ30dQoXHG9Kfz23YjCfrF">
+
+<!-- 兜底重定向：任何非根路径一律拉回根域。 -->
 <script>
-  /* 兜底重定向：任何非根路径一律拉回根域。
-     GitHub Pages 对未知路径返回 404.html（第一道防线）；
-     若托管平台改配了 SPA fallback（所有路径返回 index.html），则由本段接住。
-     replace 而非 href：不产生历史记录，用户点「返回」不会被再次弹回。
-     本地开发时 pathname 为 / 或 /index.html，不会触发。 */
   (function () {
     var p = location.pathname;
-    if (p !== '/' && p !== '/index.html') location.replace('https://vis27.com/');
+    if (p !== '/' && p !== '/index.html') location.replace('https://www.vis27.com/');
   })();
 </script>
-<meta name="viewport" content="width=device-width, initial-scale=1.0" data-page-node-id="i0Sw287Sapbs9kGVuVl2AZ">
-<title>典出 · 汉字典故检索</title>
-<meta name="description" content="输入一至两个汉字，查询其背后的典籍典故。一字一词，皆有所本。" data-page-node-id="BujEgjMHxCnH4WjAby33mj">
-<link rel="icon" href="./favicon.svg" data-page-node-id="m7w3x8520BZCHuwgGUdtUi">
+
+<title>典出 · 汉字典故检索 —— 从四书五经等古籍中查询每一个字的出处</title>
+<meta name="description" content="输入一至两个汉字，即可在《论语》《孟子》《大学》《中庸》《诗经》《尚书》《礼记》《周易》《春秋左传》等十七部中华经典全文中检索其出处典故。一字一词，皆有所本。支持同音字、简繁体、按序间隔匹配检索。" data-page-node-id="KRqB2vUeVSRb90pTNHgc2x">
+<meta name="keywords" content="典故,汉字,出处,古籍,四书五经,论语,孟子,诗经,尚书,周易,礼记,春秋左传,文言文,国学,检索" data-page-node-id="6vRGtqXGkDYiKNNBODTB7c">
+<meta name="robots" content="index, follow, max-image-preview:large" data-page-node-id="vSCoMjsjRrVw2ppFK4FFFR">
+<meta name="author" content="彩色说" data-page-node-id="lFNoqtgGQFolHMVaWwqBeb">
+<meta name="theme-color" content="#7c2d12" data-page-node-id="CZEs9tnehhYWX13s0xV6MS">
+<link rel="canonical" href="https://www.vis27.com/" data-page-node-id="YhkfshOeSx4zW6oFvqVccK">
+<link rel="icon" href="./favicon.svg" data-page-node-id="vaghpyADMfXGqEG38Byl3L">
+<link rel="apple-touch-icon" href="./favicon.svg" data-page-node-id="urjz0QxVvO5ffJT30E9CZB">
+
+<!-- Open Graph（微信/微博/海外社交分享卡片） -->
+<meta property="og:type" content="website" data-page-node-id="oR9OIeQDe015lDojgxYcJ4">
+<meta property="og:site_name" content="典出" data-page-node-id="J3HzBYuhHmJOAZulPUCjcf">
+<meta property="og:title" content="典出 · 汉字典故检索" data-page-node-id="14AI620rhK35RJWX2JqdSr">
+<meta property="og:description" content="输入一至两个汉字，检索其在十七部中华经典中的出处与典故。一字一词，皆有所本。" data-page-node-id="s6L8sfbeiOo2MDAXGtC6RA">
+<meta property="og:url" content="https://www.vis27.com/" data-page-node-id="rB7jjdmOD9cl2rZTuW0G8L">
+<meta property="og:locale" content="zh_CN" data-page-node-id="EIf2edykpGI0WjKwgDMZD5">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary" data-page-node-id="nzJ6XuIo65SKcikMndViBX">
+<meta name="twitter:title" content="典出 · 汉字典故检索" data-page-node-id="bRRlhjvunOSFCl2JwZ39hR">
+<meta name="twitter:description" content="输入一至两个汉字，检索其在十七部中华经典中的出处与典故。一字一词，皆有所本。" data-page-node-id="kFNdVIbcUEDNiG2Z2ju3S6">
+
+<!-- 结构化数据：WebSite + Sitelinks SearchBox -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "典出",
+  "alternateName": "Alludex",
+  "url": "https://www.vis27.com/",
+  "description": "汉字典故检索网站，覆盖十七部中华经典全文。",
+  "inLanguage": "zh-CN",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://www.vis27.com/?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
 <style>[v-cloak]{display:none}</style>
   <script type="module" crossorigin src="./assets/index-CVyQh92m.js"></script>
   <link rel="stylesheet" crossorigin href="./assets/index-D2FnuSXO.css">
 </head>
-<body data-page-node-id="RXaGxNripgTWTsmjalNKWg">
-<div id="app" v-cloak data-page-node-id="XgFoQ0PjrdMFYaIxIA1lqd"></div>
+<body data-page-node-id="kE1f0hAsCHkFgBjLozbJEk">
+<div id="app" v-cloak data-page-node-id="v8La1KA9ABPyzIZjWi6Al0"></div>
+
+<noscript data-page-node-id="OumVPYFz4yPYTZz4I5IyPs">
+  <div style="max-width:720px;margin:48px auto;padding:0 20px;font-family:-apple-system,'PingFang SC','Microsoft YaHei',sans-serif;line-height:1.8;color:#333;" data-page-node-id="tv9KHq7WglP3qTABgkwWI4">
+    <h1 style="font-size:28px;" data-page-node-id="i81fygTH7nKChJbKvoQpDw">典出 · 汉字典故检索</h1>
+    <p data-page-node-id="rxiqM7700E1ZmeyUk08TDW">输入一至两个汉字，检索其在《论语》《孟子》《大学》《中庸》《诗经》《尚书》《礼记》《周易》《春秋左传》等十七部中华经典全文中的出处与典故。一字一词，皆有所本。支持同音字、简繁体、按序间隔匹配检索。</p>
+    <p data-page-node-id="nk5bzPDDdhtG4FUzxJynjD">本站为交互式检索工具，请在支持 JavaScript 的浏览器中打开以获得完整检索功能。</p>
+    <h2 style="font-size:20px;" data-page-node-id="WSMxwMEHF6gKtDnVIHvnvq">覆盖典籍</h2>
+    <ul data-page-node-id="sWg2SFZKOzZdtkYTGTIOSV">
+      <li data-page-node-id="2X1OLFEjasMIWZl1RTgIVb">四书：论语、孟子、大学、中庸</li>
+      <li data-page-node-id="TYIb1aTRkWIaJTET3WYpFa">五经：诗经、尚书、礼记、周易、春秋左传</li>
+      <li data-page-node-id="dGzCiOPZ4D2ZqjlIwoWmkD">史部子部集部：史记、汉书、资治通鉴、庄子、荀子、韩非子、世说新语、全唐诗等</li>
+    </ul>
+    <p data-page-node-id="z4cthqnsWmSfhWt09smzWY">© 彩色说 制作 · 微信公众号「彩色说」</p>
+  </div>
+</noscript>
+
 </body>
 </html>
