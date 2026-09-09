@@ -186,6 +186,17 @@
       "chapters": 367,
       "sents": 310096,
       "chars": 3416438
+    },
+    {
+      "id": "quansongci",
+      "title": "全宋词",
+      "author": "唐圭璋 编",
+      "dynasty": "宋",
+      "category": "集部·词",
+      "desc": "宋词总集，二万一千零五十首，一千四百六十八家，长短句之渊薮",
+      "chapters": 1468,
+      "sents": 179825,
+      "chars": 1479796
     }
   ]
 }
